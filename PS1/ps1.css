@@ -1,0 +1,16 @@
+#head{
+    background-color: rgb(61, 20, 25);
+    margin-bottom: 2px;
+}
+
+
+.one{
+    font-style: italic;
+    justify-content: center;
+    color: rgb(224, 147, 147);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+.two{
+    font-size: large;
+}
