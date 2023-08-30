@@ -1,0 +1,58 @@
+  /* q1 */
+  .navbar {
+    background: #3498db;
+    min-height: 20px;
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .container {
+      margin: 22px; /* Q2. Add borders & margin to 1. */
+    border: 12px;   /* Q2. Add borders & margin to 1. */
+    color: #3498db;
+    background-color: rgb(189, 199, 199);
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  box-sizing: border-box; /* Q4. Add the box-sizing property to content-box. What changes did you notice? */
+  }
+  .container p {
+    width: auto;
+    padding: 20px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+
+  .container .content img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 5px;
+  }
+
+  .container .content p {
+    text-align: justify;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
+    background-color: #45a1ff;
+    color: #fff;
+    margin-top: 4px;
+    margin: 20px;  /* Q2. Add borders & margin to 1. */
+  }
