@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.navbar {
+    background: #0a0d0f;
+    min-height: 20px;
+  }
+
+  .navbar ul {
+    list-style-type: none; 
+    display: flex;
+  }
+
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-transform: uppercase;
+    text-decoration: none; /* Q3. Remove the underline from links in q1 */
+  }
+
+  .container {
+display: flex;
+margin-top: 10px;
+}
+
+.container .red {
+    height: 540px;
+    width: 700px;
+    background-color: red;
+    /* display: none; Q4 */
+  }
+
+  .container .green {
+    background-color: green;
+    height: 540px;
+    width: 700px;
+    /* visibility: hidden;  Q4 */
+  }
+
+  footer{
+    background:#e08787 ;
+    text-align: center;
+    min-height: 30px;
+    padding: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;  /* Q5. Change the foter to all uppercase */
+  }
